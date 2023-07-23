@@ -10,6 +10,7 @@ func main() {
 
 	fmt.Println("array a:", a)
 	fmt.Println("array b:", b)
+	fmt.Println(b[1]) // print secound element of array b
 
 	fmt.Println()
 
