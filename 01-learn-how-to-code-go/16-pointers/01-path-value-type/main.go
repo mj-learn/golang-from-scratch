@@ -13,7 +13,7 @@ func main() {
 
 	fmt.Println()
 
-	y := &x
+	y := &x                             // y is pointer to x
 	fmt.Printf("y -> %T -> %v\n", y, y) // print type and memory adress (path to value in memory)
 	fmt.Println("Dereferencing pointer y -> *y ->", *y)
 
