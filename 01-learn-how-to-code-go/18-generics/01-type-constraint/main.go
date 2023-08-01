@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-type test int
-
 func generic[T int | string](a, b T) {
 	fmt.Println("Hello", a, b)
 }
